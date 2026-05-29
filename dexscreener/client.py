@@ -12,7 +12,7 @@ import asyncio
 import logging
 import time
 from decimal import Decimal
-from typing import Any
+from typing import Any, cast
 
 import httpx
 
@@ -131,7 +131,7 @@ class DexScreenerClient:
         cache_key = f"pairs:{chain}:{token_address}"
         cached = self._cache_get(cache_key)
         if cached is not None:
-            return cached
+            return cast("list[DexPairData]", cached)
 
         data = await self._get_with_retry(
             f"{_BASE_URL}/tokens/v1/{chain}/{token_address}",
@@ -155,7 +155,7 @@ class DexScreenerClient:
         cache_key = f"pair:{chain}:{pair_address}"
         cached = self._cache_get(cache_key)
         if cached is not None:
-            return cached
+            return cast("DexPairData | None", cached)
 
         data = await self._get_with_retry(
             f"{_BASE_URL}/pairs/v1/{chain}/{pair_address}",
@@ -260,7 +260,7 @@ class DexScreenerClient:
         cache_key = f"boosted:{chain or 'all'}"
         cached = self._cache_get(cache_key)
         if cached is not None:
-            return cached
+            return cast("list[dict]", cached)
 
         data = await self._get_with_retry(
             f"{_BASE_URL}/token-boosts/latest/v1",

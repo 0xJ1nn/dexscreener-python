@@ -1,6 +1,5 @@
 """Tests for DexScreenerClient."""
 
-import asyncio
 from decimal import Decimal
 
 import httpx
