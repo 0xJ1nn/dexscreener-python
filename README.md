@@ -176,3 +176,13 @@ MIT
 - **[jupiter-swap-python](https://github.com/JinUltimate1995/jupiter-swap-python)** — Jupiter swap client for Python. Async. Typed.
 - **[pumpfun-python](https://github.com/JinUltimate1995/pumpfun-python)** — PumpFun bonding curve + PumpSwap AMM. Direct swaps from Python.
 - **[solana-rpc-resilient](https://github.com/JinUltimate1995/solana-rpc-resilient)** — Fault-tolerant Solana RPC with automatic failover.
+
+---
+
+## Support
+
+If this saved you time, a tip is appreciated — it funds maintenance.
+
+**Tip jar (SOL):** `Evot66rHqu6WyiBF948YipgArHSMeJ5D4GeNJXPTpV6q`
+
+You can also sponsor via the GitHub **Sponsor** button.
