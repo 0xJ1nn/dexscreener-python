@@ -38,9 +38,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/JinUltimate1995/dexscreener-python"
-Repository = "https://github.com/JinUltimate1995/dexscreener-python"
-Issues = "https://github.com/JinUltimate1995/dexscreener-python/issues"
+Homepage = "https://github.com/0xJ1nn/dexscreener-python"
+Repository = "https://github.com/0xJ1nn/dexscreener-python"
+Issues = "https://github.com/0xJ1nn/dexscreener-python/issues"
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

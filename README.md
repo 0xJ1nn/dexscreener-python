@@ -5,7 +5,7 @@
 
   <br/>
 
-  <a href="https://github.com/JinUltimate1995/dexscreener-python/actions"><img src="https://img.shields.io/github/actions/workflow/status/JinUltimate1995/dexscreener-python/ci.yml?branch=main&style=flat-square&label=tests" /></a>
+  <a href="https://github.com/0xJ1nn/dexscreener-python/actions"><img src="https://img.shields.io/github/actions/workflow/status/0xJ1nn/dexscreener-python/ci.yml?branch=main&style=flat-square&label=tests" /></a>
   <a href="https://pypi.org/project/dexscreener-python/"><img src="https://img.shields.io/pypi/v/dexscreener-python?style=flat-square" /></a>
   <img src="https://img.shields.io/pypi/pyversions/dexscreener-python?style=flat-square" />
   <img src="https://img.shields.io/badge/typed-py.typed-blue?style=flat-square" />
@@ -171,11 +171,11 @@ MIT
 
 ---
 
-## 📦 Also by JinUltimate1995
+## 📦 Also by 0xJ1nn
 
-- **[jupiter-swap-python](https://github.com/JinUltimate1995/jupiter-swap-python)** — Jupiter swap client for Python. Async. Typed.
-- **[pumpfun-python](https://github.com/JinUltimate1995/pumpfun-python)** — PumpFun bonding curve + PumpSwap AMM. Direct swaps from Python.
-- **[solana-rpc-resilient](https://github.com/JinUltimate1995/solana-rpc-resilient)** — Fault-tolerant Solana RPC with automatic failover.
+- **[jupiter-swap-python](https://github.com/0xJ1nn/jupiter-swap-python)** — Jupiter swap client for Python. Async. Typed.
+- **[pumpfun-python](https://github.com/0xJ1nn/pumpfun-python)** — PumpFun bonding curve + PumpSwap AMM. Direct swaps from Python.
+- **[solana-rpc-resilient](https://github.com/0xJ1nn/solana-rpc-resilient)** — Fault-tolerant Solana RPC with automatic failover.
 
 ---
 

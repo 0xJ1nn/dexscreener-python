@@ -5,7 +5,7 @@ Thanks for considering a contribution.
 ## Development setup
 
 ```bash
-git clone https://github.com/JinUltimate1995/dexscreener-python.git
+git clone https://github.com/0xJ1nn/dexscreener-python.git
 cd dexscreener-python
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
